@@ -9,7 +9,6 @@ department: (d_no, d_name, manager_no)
 •Retrieve employee_no and Salary where their employee name is 'Ahmad'
 */
 CREATE DATABASE company_lab4_2024
-
 CREATE TABLE Employee(
 employee_no INT NOT NULL PRIMARY KEY
 ,e_name VARCHAR(255)
