@@ -1,16 +1,13 @@
 /*
-•Create a database (company_lab4_2024)
-•Create two tables in the database:
+â€¢Create a database (company_lab4_2024)
+â€¢Create two tables in the database:
 Employee: (employee_no, e_name, Salary, phone) 
 department: (d_no, d_name, manager_no)
 -Note: employee_no  and d_no primary key
-•Retrieve all the attribute values from each table.
-•Select all records from Employee table using ascending order on Salary
-•Retrieve employee_no and Salary where their employee name is 'Ahmad'
+â€¢Retrieve all the attribute values from each table.
+â€¢Select all records from Employee table using ascending order on Salary
+â€¢Retrieve employee_no and Salary where their employee name is 'Ahmad'
 */
-
-
-
 CREATE DATABASE company_lab4_2024
 
 CREATE TABLE Employee(
