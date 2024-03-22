@@ -9,7 +9,7 @@ Employee: (employee_no, e_name, Salary, phone)
 */
 CREATE DATABASE company_lab5
 CREATE TABLE Employee(
-employee_no INT NOT NULL PRIMARY KEY
+employee_no INT PRIMARY KEY
 ,e_name VARCHAR(255)
 ,Salary MONEY
 ,phone VARCHAR(10))
