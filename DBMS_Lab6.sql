@@ -1,23 +1,23 @@
 /*
-•Create a database (company)
-•Create two tables in the database:
+â€¢Create a database (company)
+â€¢Create two tables in the database:
 Employee: (employee_no, e_name, Salary, phone, d_no) 
 Department: (d_no, d_name, manager_no)
 -Note: d_no in Department is primary key
-•Retrieve the different e_name from Employee using descending order on Salary
-•Drop Salary attribute from Employee
-•Retrieve all d_no from the "Employee" and the "Department"? 
-•Retrieve d_no that can be found in "Employee" and "Department"? 
-•Retrieve all d_no from the "Department"? In different SQL query Retrieve all d_no from the "Employee"? Then use Except between these queries? 
-•Rename Employee and Department with the following names: 'E' and 'D' respectively. Then, retrieve the  d_no from the two tables in one SQL statement
+â€¢Retrieve the different e_name from Employee using descending order on Salary
+â€¢Drop Salary attribute from Employee
+â€¢Retrieve all d_no from the "Employee" and the "Department"? 
+â€¢Retrieve d_no that can be found in "Employee" and "Department"? 
+â€¢Retrieve all d_no from the "Department"? In different SQL query Retrieve all d_no from the "Employee"? Then use Except between these queries? 
+â€¢Rename Employee and Department with the following names: 'E' and 'D' respectively. Then, retrieve the  d_no from the two tables in one SQL statement
 */
 CREATE DATABASE company
 CREATE TABLE Department(
-d_no INT NOT NULL PRIMARY KEY
+d_no INT PRIMARY KEY
 ,d_name VARCHAR(255)
 ,manager_no INT)
 CREATE TABLE Employee(
-employee_no INT NOT NULL PRIMARY KEY
+employee_no INT PRIMARY KEY
 ,e_name VARCHAR(255)
 ,Salary MONEY
 ,phone VARCHAR(10)
