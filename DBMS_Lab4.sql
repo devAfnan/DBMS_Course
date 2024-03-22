@@ -10,12 +10,12 @@ department: (d_no, d_name, manager_no)
 */
 CREATE DATABASE company_lab4_2024
 CREATE TABLE Employee(
-employee_no INT NOT NULL PRIMARY KEY
+employee_no INT PRIMARY KEY
 ,e_name VARCHAR(255)
 ,Salary MONEY
 ,phone VARCHAR(10))
 CREATE TABLE department(
-d_no INT NOT NULL PRIMARY KEY
+d_no INT PRIMARY KEY
 ,d_name VARCHAR(255)
 ,manager_no INT)
 
