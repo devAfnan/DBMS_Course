@@ -1,14 +1,14 @@
 /*
-•Create a database (company)
-•Create two tables in the database:
+â€¢Create a database (company)
+â€¢Create two tables in the database:
 Employee: (employee_no, e_name, Salary, phone, d_no) 
 Department: (d_no, d_name, manager_no)
 -Note: d_no in Department is primary key
-•Retrieve e_name, d_no from Employee and d_name from department by Inner, left and right join
-•Retrieve the employees that work in department CS
-•Retrieve the manager of department where the employee Noor works
+â€¢Retrieve e_name, d_no from Employee and d_name from department by Inner, left and right join
+â€¢Retrieve the employees that work in department CS
+â€¢Retrieve the manager of department where the employee Noor works
 */
-CREATE DATABASE company2
+CREATE DATABASE company
 CREATE TABLE Department(
 d_no INT PRIMARY KEY
 ,d_name VARCHAR(255)
