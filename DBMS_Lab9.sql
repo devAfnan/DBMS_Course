@@ -1,16 +1,16 @@
 /*
-•Create a database (company)
-•Create two tables in the database:
+â€¢Create a database (company)
+â€¢Create two tables in the database:
 Employee: (employee_no, e_name, Salary, phone, d_no) 
 Department: (d_no, d_name, manager_no)
 -Note: d_no in Department is primary key
-•Retrieve all the attribute values from each table
-•Display sum of salaries for each department where the sum of salaries more than 6000
-•Retrieve the details of employees whose salary is greater than the minimum salary of the employees working in dept number 2 and also he is not working in dept number 2
-•Display the average salary of employees for each department where their average more than 3000
-•Write a query that will display the employee name, dno, salary for employees whose work in a department !=4 and salary more of all employee average salary whose works in dno=4
+â€¢Retrieve all the attribute values from each table
+â€¢Display sum of salaries for each department where the sum of salaries more than 6000
+â€¢Retrieve the details of employees whose salary is greater than the minimum salary of the employees working in dept number 2 and also he is not working in dept number 2
+â€¢Display the average salary of employees for each department where their average more than 3000
+â€¢Write a query that will display the employee name, dno, salary for employees whose work in a department !=4 and salary more of all employee average salary whose works in dno=4
 */
-CREATE DATABASE company22
+CREATE DATABASE company
 CREATE TABLE Department(
 d_no INT PRIMARY KEY
 ,d_name VARCHAR(255)
