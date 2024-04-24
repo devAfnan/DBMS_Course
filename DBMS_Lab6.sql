@@ -47,8 +47,6 @@ SELECT d_no FROM Employee
 INTERSECT 
 SELECT d_no FROM Department
 
-SELECT d_no FROM Department
-
 SELECT d_no FROM Employee 
 EXCEPT 
 SELECT d_no FROM Department
